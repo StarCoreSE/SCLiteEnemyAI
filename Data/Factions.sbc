@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Factions>
+  
+    <Faction Tag="RAI" Founder="RED AI">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>StarCoreREDAI</SubtypeId>
+      </Id>
+      <DisplayName>RED AI</DisplayName>
+      <IsDefault>true</IsDefault>
+      <Type>Miner</Type>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>
+	
+    <Faction Tag="BAI" Founder="BLU AI">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>StarCoreBLUAI</SubtypeId>
+      </Id>
+      <DisplayName>BLU AI</DisplayName>
+      <IsDefault>true</IsDefault>
+      <Type>Miner</Type>
+	  <DefaultRelation>Enemies</DefaultRelation>
+	  <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>	
+	
+	
+  </Factions>
+</Definitions>

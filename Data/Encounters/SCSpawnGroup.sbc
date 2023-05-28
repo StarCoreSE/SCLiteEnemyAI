@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/29901/XMLSchema-instance" xmlns:xsd="http://www.w3.org/29901/XMLSchema">
+	<SpawnGroups>
+	<!--Do Not Edit Above Here-->
+
+
+    <!--FACTION RED-->
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <!--Do Not Edit-->
+        <SubtypeId>SpawnREDRedShip</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+
+
+        [SpawnConditionsProfiles:SCSpawnConditionRED]
+
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <!--Do not edit-->
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="The Red Ship">
+          <Position>
+            <X>500.0</X>
+            <Y>500.0</Y>
+            <Z>500.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>SCFighterRED</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!--FACTION BLU-->
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <!--Do Not Edit-->
+        <SubtypeId>SpawnBLUMarekWept</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ReplenishSystems:true]
+
+
+        [SpawnConditionsProfiles:SCSpawnConditionBLU]
+
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <!--Do not edit-->
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="BLU Marek Wept">
+          <Position>
+            <X>500.0</X>
+            <Y>500.0</Y>
+            <Z>500.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>SCFighterBLU</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+
+    <!--Do Not Edit Below Here-->
+	</SpawnGroups>
+</Definitions>

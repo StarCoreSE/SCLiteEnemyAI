@@ -11,6 +11,7 @@
       <IsDefault>true</IsDefault>
       <Type>Miner</Type>
 	  <DefaultRelation>Enemies</DefaultRelation>
+    <DiscoveredByDefault>true</DiscoveredByDefault>
 	  <AcceptHumans>false</AcceptHumans>
       <AutoAcceptMember>false</AutoAcceptMember>
     </Faction>
@@ -24,6 +25,7 @@
       <IsDefault>true</IsDefault>
       <Type>Miner</Type>
 	  <DefaultRelation>Enemies</DefaultRelation>
+    <DiscoveredByDefault>true</DiscoveredByDefault>
 	  <AcceptHumans>false</AcceptHumans>
       <AutoAcceptMember>false</AutoAcceptMember>
     </Faction>	

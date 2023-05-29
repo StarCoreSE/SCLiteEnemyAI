@@ -9,7 +9,7 @@
       </Id>
       <DisplayName>RED AI</DisplayName>
       <IsDefault>true</IsDefault>
-      <Type>Miner</Type>
+      <Type>None</Type>
 	  <DefaultRelation>Enemies</DefaultRelation>
     <DiscoveredByDefault>true</DiscoveredByDefault>
 	  <AcceptHumans>false</AcceptHumans>
@@ -23,7 +23,7 @@
       </Id>
       <DisplayName>BLU AI</DisplayName>
       <IsDefault>true</IsDefault>
-      <Type>Miner</Type>
+      <Type>None</Type>
 	  <DefaultRelation>Enemies</DefaultRelation>
     <DiscoveredByDefault>true</DiscoveredByDefault>
 	  <AcceptHumans>false</AcceptHumans>
